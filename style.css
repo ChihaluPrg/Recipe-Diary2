@@ -67,8 +67,9 @@ main {
     border: 0.2rem solid #b9b9b9;
     font-size: 1.5rem;
     padding: 15px 40px;
-    margin: 0 50px 100px 50px;
+    margin: 0 70px 100px 70px;
     text-align: center;
+    text-decoration: none;
 }
 
 .sns {
@@ -90,4 +91,49 @@ main {
     font-size: 1.2rem;
     margin-bottom: 22px;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 62.5%
+    }
+
+    .flex {
+        display: flex;
+        margin-bottom: 65px;
+    }
+
+    #visual {
+        display: flex;
+        width: 50%;
+    }
+
+    #visual img {
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    main {
+        width: 50%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #recipe {
+        padding: 0 50px;
+    }
+
+    .recipe-view-list {
+        display: block;
+        border: 0.2rem solid #b9b9b9;
+        font-size: 1.5rem;
+        padding: 15px 40px;
+        margin: 0 500px 100px 500px;
+        text-align: center;
+        text-decoration: none;
+    }
 }
